@@ -323,6 +323,7 @@ footer{
     margin-top: 50px;
     background-color: #DC32E2;
     color: #fff;
+    padding-top: 10px;
 }
 footer div div ol{
     background-color: transparent!important;
@@ -351,10 +352,12 @@ footer form button[type=submit]{
     font-weight: bold;
 }
 
-footer div div:nth-of-type(5){
+footer > div:nth-of-type(2){
     background-color: #F48AF8;
     color: #ffffff;
-    padding: 5px 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #7e2377;
 }
 
 @media (max-width:720px){
